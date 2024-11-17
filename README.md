@@ -1,12 +1,12 @@
-## Hi there 👋
+# Hi there 👋
 
 ENFP, a Internet and New Media student, a Human Resources (Service) learner, a development starter.
 
 一个传播学学生，一个人力资源（服务）学习者，一个编程小白。
 
 - 📫 How to reach me 如何联系我:
-  - mail: ztm0929@icloud.com
-  - Telegram: https://t.me/ztm0929
+  - mail: [ztm0929@icloud.com](mailto:ztm0929@icloud.com)
+  - Telegram: [https://t.me/ztm0929](https://t.me/ztm0929)
   - WeChat: ztm00929
 
 <!--
