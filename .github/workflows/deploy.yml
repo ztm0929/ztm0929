@@ -13,11 +13,17 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    - name: Create SSH key file
+      run: echo "${{ secrets.VPS_KEY }}" > /tmp/vps_key.pem
+
+    - name: Set permissions for SSH key
+      run: chmod 600 /tmp/vps_key.pem
+
     - name: Copy files via SSH
       uses: appleboy/scp-action@v0.1.3
       with:
         host: ${{ secrets.VPS_HOST }}
         username: ${{ secrets.VPS_USER }}
-        key: ${{ secrets.VPS_KEY_BASE64 }}
+        key: /tmp/vps_key.pem
         source: "index.html"
         target: "/var/www/html"
