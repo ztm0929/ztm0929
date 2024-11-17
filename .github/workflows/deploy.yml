@@ -14,7 +14,8 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Create SSH key file
-      run: echo "${{ secrets.VPS_KEY }}" > /tmp/vps_key.pem
+      run: |
+        echo "${{ secrets.VPS_KEY }}" > /tmp/vps_key.pem
 
     - name: Set permissions for SSH key
       run: chmod 600 /tmp/vps_key.pem
