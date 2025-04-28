@@ -1,6 +1,6 @@
 # Hi there 👋
 
-ENFP, a Internet and New Media student, a Human Resources (Service) learner, a development starter.
+ENFP, an Internet and New Media student, a Human Resources (Service) learner, a development starter.
 
 一个传播学学生，一个人力资源（服务）学习者，一个编程小白。
 
